@@ -1,0 +1,56 @@
+head {
+    min-height: 70px;
+    /* background-color: blue; */
+    overflow: hidden;
+    padding: 0px 20px 0px 20px;
+}
+
+nav {
+    background-color: blue;
+    height: 50px;
+    padding-top: 17px;
+    flex-direction: unset;
+
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+ul li {
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: all .9s;
+    text-transform: uppercase;
+    display: inline;
+    
+
+}
+
+ul li a {
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    color: cyan;
+    font-size: 16px;
+    transition: ease all .9s;
+    background-color: blue;
+}
+
+.container
+{
+
+    padding-top: 50px;
+
+
+}
+
+.container img{
+    border-radius: 80px;
+    width: 30%;
+    height: 50%;
+}
+
+.word{float: right;
+    padding-top:100 px;
+
+}

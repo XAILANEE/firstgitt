@@ -1,0 +1,146 @@
+* {
+    padding: none;
+    margin: none;
+}
+
+body {
+    background-color: teal;
+}
+
+/* ======my nav bar===== */
+.logo img {
+    height: 80px;
+    width: 50px;
+}
+
+body header {
+    min-height: 70px;
+    background-color: brown;
+    overflow: hidden;
+}
+
+header img {
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+header nav {
+
+    float: right;
+}
+
+ul li {
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: all .9s;
+    text-transform: uppercase;
+    display: inline;
+}
+
+ul li a {
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    color: cyan;
+    font-size: 16px;
+    transition: ease all .9s;
+}
+
+ul li a:hover {
+    color: orange;
+}
+
+h3 {
+    color: blanchedalmond;
+    text-align: center;
+}
+
+p {
+    color: cyan;
+    text-align: justify;
+}
+
+/* ======nav end// */
+
+/*------contact-----*/
+
+.container {
+    text-align: center;
+    margin-right: 30%;
+    padding: 30px;
+    border: solid 1px black;
+    width: 30%;
+    float: right;
+    border-radius: 20px;
+}
+
+.btn {
+    font-weight: 400;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: cyan;
+}
+
+.email {
+    border-radius: 50px;
+    color: cyan;
+    border-radius: 20px;
+}
+
+.message {
+    border-radius: 50px;
+    color: cyan;
+}
+
+
+
+
+
+
+/* =====================================START OF FOOTER STYLING======================================= */
+footer {
+    padding-top: 50px;
+    border-top: 2px solid white;
+    background-color: black;
+}
+
+footer p {
+    float: right;
+    color: white;
+
+}
+
+
+.social a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    font-size: 14px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 3px;
+    transition: 0.2s all;
+    text-align: center;
+    background-color: rgb(255, 115, 0);
+}
+
+.social a:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+/*================================== END OF FOOTER STYLING================================================ */
+
+
+
+/* =======================Footer Style===================== */
+footer {
+    padding: none;
+}
+
+.banner {
+    float: right;
+}
